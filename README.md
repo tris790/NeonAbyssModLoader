@@ -1,5 +1,13 @@
 # Neon Abyss ModLoader [WIP]
 
+## Prerequisite
+- .NetFramework 4.5
+- 0harmony.dll in game root
+- doorstop dll loader in game root
+- build the modloader and set the post build step to copy to your game folder
+- add reference to your game's dll and unity (replace the paths in csproj for yours)
+- create a folder mods in your game root and a folder inside with the name of your mod eg: TestMod
+
 ## Repository content
 - The ModLoader which will load every mod following this structure:
     - C:/YOUR_OWN_PATH/NeonAbyss/mods/YOUR_OWN_MOD.dll
